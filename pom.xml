@@ -5,6 +5,7 @@
   <artifactId>MavenHelloWorldProject</artifactId> 
   <packaging>war</packaging>
   <version>3.0.0</version>
+  <failOnMissingWebXml>false</failOnMissingWebXml>  
   <name>MavenHelloWorldProject</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -12,9 +13,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>   
-</properties>
       <scope>test</scope>
     </dependency>
   </dependencies>
